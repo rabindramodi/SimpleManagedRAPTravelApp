@@ -1,0 +1,6 @@
+@EndUserText.label: 'ZC_RAP100_ATRAV999'
+@MappingRole: true
+define role ZC_RAP100_ATRAV999 {
+  grant select on ZC_RAP100_ATRAV999
+  where INHERITING CONDITIONS FROM ENTITY ZR_RAP100_ATRAV999 DEFAULT TRUE;
+}
